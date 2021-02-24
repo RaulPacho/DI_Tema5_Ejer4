@@ -73,8 +73,11 @@ namespace DI_Tema5_Ejer4
                     pe.Graphics.DrawEllipse(p,new Rectangle(new Point(80,120),new Size(40,40)));
                     break;
                 default:
-                    SolidBrush b = new SolidBrush(this.ForeColor);
-                    pe.Graphics.DrawString("¿Ande vas? ¡Payaso!", this.Font, b, 80, 120);
+                    if (errores != 0)
+                    {
+                        SolidBrush b = new SolidBrush(this.ForeColor);
+                        pe.Graphics.DrawString("¿Ande vas? ¡Payaso!", this.Font, b, 80, 120);
+                    }
                     break;
             }
 

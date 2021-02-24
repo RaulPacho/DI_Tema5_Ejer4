@@ -34,7 +34,7 @@ namespace WindowsFormsApp1
             // 
             // dibujoAhorcado1
             // 
-            this.dibujoAhorcado1.Errores = -1;
+            this.dibujoAhorcado1.Errores = 0;
             this.dibujoAhorcado1.Location = new System.Drawing.Point(107, 41);
             this.dibujoAhorcado1.Name = "dibujoAhorcado1";
             this.dibujoAhorcado1.Size = new System.Drawing.Size(347, 407);
